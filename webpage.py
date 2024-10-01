@@ -10,7 +10,7 @@ CORS(app)   # Enable CORS for all routes
 # Route for homepage
 @app.route('/')
 def home():
-    return render_template('index.html')
+    return render_template('webpage_index.html')
 
 @app.route('/getsensordata', methods = ['GET', 'POST'])
 def sensor_data():

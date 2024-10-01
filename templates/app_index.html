@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commands to send to ROS</title>
+</head>
+<body>
+    <h1>Velocity Command</h1>
+    <form action="/cmd_vel" method="POST">
+        <label for="linear">Linear Velocity X:</label><br>
+        <input type="text" id="linear" name="Linear_Velocity" placeholder="e.g. 1"><br><br>
+        <label for="angular">Angular Velocity Z:</label><br>
+        <input type="text" id="angular" name="Angular_Velocity" placeholder="e.g. 0.5"><br><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
